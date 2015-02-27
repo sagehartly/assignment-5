@@ -7,5 +7,45 @@ html {
 }
 
 body {
-  font-family: "Merriweather"
+  font-family: "Merriweather";
+  margin: 0;
+}
+
+header {
+  background-color: #cd5b34;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: #cd5b34;
+  text-align: center;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+h2 {
+  background-color: #d98156;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 1em;
+  margin: 0;
+}
+
+footer {
+  background-color: #cd5b34;
+  padding: 1em;
+  text-align: center;
 }
