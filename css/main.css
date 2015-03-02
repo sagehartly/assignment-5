@@ -23,11 +23,26 @@ header {
   color: white;
 }
 
+.left-grain {
+  float: left;
+  width: 5%;
+}
+
 h1 {
+  width: 80%;
+  float: left;
+  text-align: center;
   margin: 0;
+  box-sizing: border-box;
+}
+
+.right-grain {
+  float: right;
+  width: 5%;
 }
 
 nav {
+  clear: both;
   background-color: #cd5b34;
   text-align: center;
   padding: 1em;
@@ -37,11 +52,11 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  border: 1px solid #a4403b;
 }
 
 nav li {
   display: inline-block;
-  border: 1px solid black;
 }
 
 a {
@@ -57,7 +72,7 @@ a:hover {
   width: 35%;
   margin-right: 15px;
   margin: 1em;
-  border: 1px solid grey;
+  border: 1px solid maroon;
 }
 
 .cereals {
@@ -65,7 +80,7 @@ a:hover {
   width: 40%;
   margin-left: 15px;
   margin: 0.5em;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
 }
 
 .quinoa {
@@ -73,7 +88,7 @@ a:hover {
   float: right;
   width: 40%;
   margin: 0.5em;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
 }
 
 .p2 {
@@ -129,21 +144,26 @@ h3 {
 h4 {
   text-align: center;
   font-size: 16px;
+  font-weight: extra-bold;
+  padding: 1em 0 0 0;
+  line-height: 1;
+  clear: both;
+
 }
 
 .legumes {
+  clear: left;
   float: left;
-  width: 25%;
-  border: 1px solid grey;
+  width: 20%;
+  border: 1px solid lightgrey;
   box-sizing: border-box;
+  margin: 0.5em;
 }
 
 .legumes-text {
   float: right;
-  clear: right;
   width: 75%;
   font-style: italic;
-  margin: 0 0 0 1em;
   box-sizing: border-box;
 }
 
