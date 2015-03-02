@@ -132,6 +132,19 @@ h4 {
   font-size: 16px;
 }
 
+.legumes {
+  float: left;
+  width: 25%;
+  margin: 0.5em;
+  border: 1px solid grey;
+}
+
+.legumes-text {
+  clear: left;
+  font-style: italic;
+
+}
+
 footer {
   font-size: 10px;
   color: #d98156;
