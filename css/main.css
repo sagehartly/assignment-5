@@ -127,7 +127,6 @@ h3 {
 }
 
 h4 {
-  font-style: bold;
   text-align: center;
   font-size: 16px;
 }
@@ -135,17 +134,21 @@ h4 {
 .legumes {
   float: left;
   width: 25%;
-  margin: 0.5em;
   border: 1px solid grey;
+  box-sizing: border-box;
 }
 
 .legumes-text {
-  clear: left;
+  float: right;
+  clear: right;
+  width: 75%;
   font-style: italic;
-
+  margin: 0 0 0 1em;
+  box-sizing: border-box;
 }
 
 footer {
+  clear: both;
   font-size: 10px;
   color: #d98156;
   background-color: #cd5b34;
