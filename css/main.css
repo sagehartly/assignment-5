@@ -6,21 +6,19 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  font-family: "Merriweather";
-  margin: 0;
-  line-height: 1.25em;
-}
-
-p {
-  font-size: 12px;
+div {
+  background-color: #cd5b34;
+  overflow: hidden;
 }
 
 header {
   background-color: #cd5b34;
-  padding: 1em 2em 2em 2em;
+  padding: 0.5em 2em 4em 2em;
   text-align: center;
   color: white;
+  font-size: 12px;
+  line-height: 1.25em;
+  border-bottom: 1px solid #a4403b;
 }
 
 .left-grain {
@@ -29,10 +27,11 @@ header {
 }
 
 h1 {
+  background-color: #cd5b34;
   width: 80%;
   float: left;
   text-align: center;
-  margin: 0 0 1em 0;
+  margin: 0.25;
   box-sizing: border-box;
 }
 
@@ -41,42 +40,54 @@ h1 {
   width: 5%;
 }
 
+a {
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1em;
+  text-decoration: none;
+}
+
 .nav1 {
   float: left;
-  width: 30%;
-  background-color: #cd5b34;
-  margin: 0;
-  text-align: center;
+  width: 33%;
 }
 
 .nav2 {
   float: left;
-  width: 30%;
-  background-color: #cd5b34;
-  margin: 0;
-  text-align: center;
+  width: 33%;
+  border-left: 1px solid #a4403b;
+  border-right: 1px solid #a4403b;
 }
 
 .nav3 {
   float: right;
-  width: 30%;
-  background-color: #cd5b34;
-  margin: 0;
-  text-align: center;
+  width: 33%;
 }
 
 a:hover {
   color: white;
 }
 
-p1 {
-margin: 0;
+body {
+  font-family: "Merriweather";
+  margin: 0;
+  line-height: 1.5em;
+  clear: both;
+  font-size: 12px;
 }
+
+.p1 {
+clear: right;
+}
+
 .inset {
+  clear: left;
   float: left;
   width: 35%;
   margin-right: 15px;
-  margin: 0 1em 1em 1em;
+  margin: 1em 1em 1em 1em;
   border: 1px solid lightgrey;
 }
 
