@@ -12,32 +12,28 @@ div {
 }
 
 header {
-  background-color: #cd5b34;
   padding: 0.5em 2em 4em 2em;
   text-align: center;
   color: white;
-  font-size: 12px;
-  line-height: 1.25em;
   border-bottom: 1px solid #a4403b;
 }
 
 .left-grain {
   float: left;
-  width: 5%;
+  width: 7%;
 }
 
 h1 {
-  background-color: #cd5b34;
   width: 80%;
   float: left;
   text-align: center;
-  margin: 0.25;
+  margin: 0.1;
   box-sizing: border-box;
 }
 
 .right-grain {
   float: right;
-  width: 5%;
+  width: 7%;
 }
 
 a {
@@ -45,12 +41,12 @@ a {
   text-align: center;
   box-sizing: border-box;
   margin: 0;
-  padding: 1em;
+  padding: 0.75em;
   text-decoration: none;
 }
 
 a:hover {
-  color: blue;
+  color: #cd5b34;
 }
 
 .nav1 {
@@ -71,14 +67,13 @@ a:hover {
 }
 
 a:hover {
-  color: white;
+  color: blue;
 }
 
 body {
   font-family: "Merriweather";
   margin: 0;
   line-height: 1.5em;
-  clear: both;
   font-size: 12px;
 }
 
@@ -116,6 +111,9 @@ clear: right;
   margin: 0.75em;
 }
 
+main {
+
+}
 
 h2 {
   background-color: #d98156;
@@ -141,30 +139,20 @@ h2 {
   width: 50%;
 }
 
-.title-rice {
-  float: left;
-  width: 50%;
-}
-
-.title-oats {
-  float: right;
-  width: 50%;
-}
-
 h3 {
   background-color: #d98156;
   color: white;
   text-align: center;
   font-size: 12px;
   font-style: italic;
-  padding: 0em 0.5em 0.5em 0.5em;
+  padding: 0.25em 0.5em 0.5em 0.5em;
   margin: 0;
 }
 
 h4 {
   text-align: center;
   font-size: 16px;
-  font-style: bold;
+  font-weight: bold;
   padding: 1em 0 0 0;
   line-height: 1;
   clear: both;
