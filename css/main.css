@@ -6,34 +6,31 @@ html {
   box-sizing: inherit;
 }
 
-div {
+header {
+  padding: 0;
+  text-align: center;
+  color: white;
   background-color: #cd5b34;
   overflow: hidden;
 }
 
-header {
-  padding: 0.5em 2em 4em 2em;
-  text-align: center;
-  color: white;
-  border-bottom: 1px solid #a4403b;
-}
-
 .left-grain {
   float: left;
-  width: 7%;
+  width: 6%;
 }
 
 h1 {
   width: 80%;
   float: left;
   text-align: center;
-  margin: 0.1;
+  padding: 0.5em;
+  margin: 0;
   box-sizing: border-box;
 }
 
 .right-grain {
   float: right;
-  width: 7%;
+  width: 6%;
 }
 
 a {
@@ -43,6 +40,7 @@ a {
   margin: 0;
   padding: 0.75em;
   text-decoration: none;
+  border-top: 1px solid #a4403b;
 }
 
 a:hover {
@@ -78,7 +76,10 @@ body {
 }
 
 main {
-  background color:#cd5b34;
+  background-color: #d98156;
+  overflow: hidden;
+  clear: both;
+
 }
 
 .p1 {
@@ -145,15 +146,15 @@ h3 {
   text-align: center;
   font-size: 12px;
   font-style: italic;
-  padding: 0.25em 0.5em 0.5em 0.5em;
   margin: 0;
+  padding: 0.25em 0 0.25em 0;
 }
 
 h4 {
   text-align: center;
   font-size: 16px;
   font-weight: 900;
-  padding: 1em 0 0 0;
+  padding: 0;
   line-height: 1;
   clear: both;
 }
@@ -164,7 +165,7 @@ h4 {
   width: 20%;
   border: 1px solid lightgrey;
   box-sizing: border-box;
-  margin: 0.5em;
+  margin: 0.5em 0 0.5em 0.5em ;
 }
 
 .legumes-text {
