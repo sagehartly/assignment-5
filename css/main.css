@@ -77,6 +77,10 @@ body {
   font-size: 12px;
 }
 
+main {
+  background color:#cd5b34;
+}
+
 .p1 {
 clear: right;
 }
@@ -111,10 +115,6 @@ clear: right;
   margin: 0.75em;
 }
 
-main {
-
-}
-
 h2 {
   background-color: #d98156;
   color: white;
@@ -126,7 +126,7 @@ h2 {
 }
 
 .corn {
-  width: 100%
+  width: 100%;
 }
 
 .rice {
@@ -152,11 +152,10 @@ h3 {
 h4 {
   text-align: center;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 900;
   padding: 1em 0 0 0;
   line-height: 1;
   clear: both;
-
 }
 
 .legumes {
