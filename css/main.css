@@ -14,6 +14,13 @@ header {
   overflow: hidden;
 }
 
+body {
+  font-family: "Merriweather";
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 12px;
+}
+
 .left-grain {
   float: left;
   width: 5%;
@@ -47,7 +54,7 @@ a {
 }
 
 a:hover {
-  color: #cd5b34;
+  color: #a4403b;
 }
 
 .nav1 {
@@ -65,24 +72,6 @@ a:hover {
 .nav3 {
   float: left;
   width: 33%;
-}
-
-a:hover {
-  color: blue;
-}
-
-body {
-  font-family: "Merriweather";
-  margin: 0;
-  line-height: 1.5em;
-  font-size: 12px;
-}
-
-main {
-  background-color: #d98156;
-  overflow: hidden;
-  clear: both;
-
 }
 
 .p1 {
@@ -117,6 +106,12 @@ clear: right;
 .p2 {
   clear: left;
   margin: 0.75em;
+}
+
+main {
+  background-color: #d98156;
+  overflow: hidden;
+  clear: both;
 }
 
 h2 {
