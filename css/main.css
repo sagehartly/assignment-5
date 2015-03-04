@@ -16,7 +16,8 @@ header {
 
 .left-grain {
   float: left;
-  width: 6%;
+  width: 5%;
+  padding: 0.5em 0 0 0;
 }
 
 h1 {
@@ -30,7 +31,8 @@ h1 {
 
 .right-grain {
   float: right;
-  width: 6%;
+  width: 5%;
+  padding: 0.5em 0 0 0;
 }
 
 a {
@@ -60,7 +62,7 @@ a:hover {
 }
 
 .nav3 {
-  float: right;
+  float: left;
   width: 33%;
 }
 
