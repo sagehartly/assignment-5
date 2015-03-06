@@ -108,18 +108,12 @@ clear: right;
   margin: 0.75em;
 }
 
-main {
-  background-color: #d98156;
-  overflow: hidden;
-  clear: both;
-}
-
 h2 {
   background-color: #d98156;
   color: white;
   text-align: center;
   font-size: 16px;
-  padding: 1em;
+  padding: 1em 0 1em 0;
   margin: 0;
   clear: both;
 }
@@ -136,16 +130,19 @@ h2 {
 .oats {
   float: right;
   width: 50%;
+  clear: right;
 }
 
-h3 {
+figure {
+  margin: 0;
+}
+
+figcaption {
   background-color: #d98156;
   color: white;
   text-align: center;
   font-size: 10px;
   font-style: italic;
-  margin: 0;
-  padding: 0.25em 0 0.25em 0;
 }
 
 h4 {
